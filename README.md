@@ -9,8 +9,6 @@ So first to run this, make sure you have the following installed:
     ```bash
     pip install scapy
 
-
-
 ## **Steps to follow**
 
 1. **PCAP File Selection**  
@@ -39,6 +37,7 @@ So the correct file is **6.pcap** for this task.
 5. **Output**
 
 **Sample Output (CSV Data)**
+
 After running the above commands, a CSV file will be generated with the following format:
 
 | CustomHeader | Domain        | ResolvedIP     |
@@ -50,3 +49,38 @@ After running the above commands, a CSV file will be generated with the followin
 | 18041604     | example.com  | 192.168.1.10   |
 | 18041605     | wikipedia.org| 192.168.1.6    |
 | 18041606     | github.com   | 192.168.1.7    |
+
+##Task 2 
+
+Part 1: How to Perform the Experiment (macOS)
+
+Steps to capture traffic for the `traceroute` command on macOS:
+
+1. Open **Wireshark** and the **Terminal** app.  
+2. In Wireshark, select your active network interface (usually **en0** for Wi-Fi).  
+3. Start capturing by clicking the **blue shark icon**.  
+4. In Terminal, run the command:  
+   ```bash
+   traceroute www.youtube.com
+5. Wait until the command finishes.
+6. Stop capturing in Wireshark (red square 🟥 icon).
+7. Apply the filter in Wireshark:
+   ```bash
+   (udp.port >= 33434) or icmp
+8. Save the capture as tracert_youtube_mac.pcapng (this file is also provided in the repository).
+
+Part 2: 
+
+Steps to capture traffic for the tracert command on Windows:
+1. Open Wireshark and Command Prompt (cmd).
+2. Start capturing in Wireshark.
+3 In Command Prompt, run the command:
+  ```bash
+  tracert www.youtube.com
+
+4. Wait until the command finishes.
+5. Stop capturing in Wireshark.
+6. Apply the filter in Wireshark:
+  ```bash
+  icmp
+7. Save the capture as tracert_youtube_windows.pcapng (this file is also provided in the repository).
