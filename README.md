@@ -9,6 +9,7 @@ So first to run this, make sure you have the following installed:
 - **Python 3.x**
 - **[Scapy](https://scapy.net/)** – for parsing PCAP and DNS packets  
   ```bash
+  
   pip install scapy
 -**Pandas**
   ```bash
