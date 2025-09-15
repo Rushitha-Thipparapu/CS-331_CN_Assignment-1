@@ -1,32 +1,21 @@
 # CS-331_CN_Assignment-1
 
-## Task 1
-This task implements a custom DNS Resolver using Python.  
-The client extracts DNS queries from a PCAP file, adds a custom header, and sends them to the server.  
-The server resolves the queries using a predefined IP pool and returns the results back to the client.
+##Task 1 
+This task implements a custom DNS Resolver using Python. The client extracts DNS queries from a PCAP file, adds a custom header, and sends them to the server. The server resolves the queries using a predefined IP pool and returns the results back to the client. It uses two programs: - **Client** → Reads DNS queries from a PCAP file, adds a custom header, and sends them out. - **Server** → Waits for queries, resolves them based on rules, and sends the answers back. 
 
-It uses two programs:  
-- **Client** → Reads DNS queries from a PCAP file, adds a custom header, and sends them out.  
-- **Server** → Waits for queries, resolves them based on rules, and sends the answers back.  
-
----
-
-## Requirements
-Make sure you have the following installed:
-
+So first to run this, make sure you have the following installed: 
 - **Python 3.x**
-- **[Scapy](https://scapy.net/)** – for parsing PCAP and DNS packets  
-  ```bash
-  pip install scapy
-
+- **[Scapy](https://scapy.net/)** – for parsing PCAP and DNS packets
+    ```bash
+    pip install scapy
 
 
 
 ## **Steps to follow**
+
 1. **PCAP File Selection**  
    Choose the correct PCAP file based on team roll numbers:
- 
-  ```bash
+    ```bash
     X = (sum of last 3 digits of both team members) % 10 -> (058 + 338) % 10 = 6
 
 So the correct file is **6.pcap** for this task.  
