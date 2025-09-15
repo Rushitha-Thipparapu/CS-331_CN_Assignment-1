@@ -21,23 +21,20 @@ So first to run this, make sure you have the following installed:
 So the correct file is **6.pcap** for this task.  
 
 2. **Clone Repository**  
-Clone this repository to directly run on any device:  
-
-```bash
-git clone https://github.com/Rushitha-Thipparapu/CS-331_CN_Assignment-1.git
-cd CS-331_CN_Assignment-1
+   Clone this repository to directly run on any device:  
+   ```bash
+    git clone https://github.com/Rushitha-Thipparapu/CS-331_CN_Assignment-1.git
+    cd CS-331_CN_Assignment-1
 
 3. **Run the Server**
-Open a terminal and run:
-
-```bash
-python server.py
+    Open a terminal and run:
+    ```bash
+    python server.py
 
 4. **Run the Client**
-In parallel, open another terminal and run:
-
-```bash
-python client.py
+    In parallel, open another terminal and run:
+    ```bash
+    python client.py
 
 5. **Output**
 
