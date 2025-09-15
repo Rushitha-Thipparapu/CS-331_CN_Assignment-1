@@ -1,6 +1,7 @@
 # CS-331_CN_Assignment-1
 
-##Task 1 
+##**Task 1**
+
 This task implements a custom DNS Resolver using Python. The client extracts DNS queries from a PCAP file, adds a custom header, and sends them to the server. The server resolves the queries using a predefined IP pool and returns the results back to the client. It uses two programs: - **Client** → Reads DNS queries from a PCAP file, adds a custom header, and sends them out. - **Server** → Waits for queries, resolves them based on rules, and sends the answers back. 
 
 So first to run this, make sure you have the following installed: 
@@ -50,7 +51,7 @@ After running the above commands, a CSV file will be generated with the followin
 | 18041605     | wikipedia.org| 192.168.1.6    |
 | 18041606     | github.com   | 192.168.1.7    |
 
-##Task 2 
+##**Task 2**
 
 Part 1: How to Perform the Experiment (macOS)
 
