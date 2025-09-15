@@ -76,12 +76,13 @@ Steps to capture traffic for the tracert command on Windows:
 1. Open Wireshark and Command Prompt (cmd).
 2. Start capturing in Wireshark.
 3 In Command Prompt, run the command:
-  ```bash
-  tracert www.youtube.com
+      ```bash
+      tracert www.youtube.com
 
 4. Wait until the command finishes.
 5. Stop capturing in Wireshark.
-6. Apply the filter in Wireshark:
-  ```bash
-  icmp
+   
+7. Apply the filter in Wireshark:
+      ```bash
+      icmp
 7. Save the capture as tracert_youtube_windows.pcapng (this file is also provided in the repository).
