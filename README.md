@@ -37,8 +37,6 @@ So the correct file is **6.pcap** for this task.
 
 5. **Output**
 
-**Sample Output (CSV Data)**
-
 After running the above commands, a CSV file will be generated with the following format:
 
 | CustomHeader | Domain        | ResolvedIP     |
